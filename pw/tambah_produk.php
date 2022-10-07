@@ -1,3 +1,7 @@
+<?php
+  include('koneksi.php'); //agar index terhubung dengan database, maka koneksi sebagai penghubung harus di include
+  
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,18 +11,16 @@
         font-family: "Trebuchet MS";
       }
       body{
-        background: url('img/bg1.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
+        background-image: url(gambar/bg1.jpg);
+        background-repeat: no-repeat;
         background-size: cover;
-        -o-background-size: cover;
       }
       h1 {
         text-transform: uppercase;
-        color: black;
+        color: #996633;
       }
     button {
-          background-color: black;
+          background-color: #996633;
           color: #fff;
           padding: 10px;
           text-decoration: none;
