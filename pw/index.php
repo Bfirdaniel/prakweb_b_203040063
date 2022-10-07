@@ -70,4 +70,4 @@ $bk = $rows;
       <?php endforeach; ?> 
     </table>
     <a href="tambah_produk.php"><button type="button" class="btn btn-outline-dark mt-3">Tambahkan Produk</button></a>
-</html
+</html>
