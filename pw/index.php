@@ -25,16 +25,29 @@ $bk = $rows;
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="logo.jpeg" rel="shorcut icon">
   <title>Penjualan buku awal</title>
 </head>
 
 <body>
 
-  <center><h1>Daftar Buku yang Dijual</h1></center>
+  <center><h1>Just Read It !<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  </head>
+  <body>
 
-<center><table border="1" cellpading="10" cellspacing="0"></center>
-    <tr bgcolor="#FFCC00">
+  </body>
+  </html></h1></center>
+
+<center><table border="3" cellpading="10" cellspacing="0"></center>
+    <tr bgcolor="#FFCC00" class="text-center">
       <th>No</th>
       <th>Nama buku</th>
       <th>Penulis</th>
@@ -49,11 +62,12 @@ $bk = $rows;
         <td style="vertical-align : middle;text-align:center;"><?= $rows["penulis_buku"]; ?></td>
         <td>
           <figure class="figure">
-            <img class="rounded" src="img/<?= $rows["img"]; ?>" width="180px" height="200px">
+            <img class="rounded" src="img/<?= $rows["img"]; ?>" width="180px" height="210px">
           </figure>
         </td>
         <td style="vertical-align : middle;text-align:center;"><b><p>Rp.<?= $rows["harga"]; ?><p></td></b>
         
-      <?php endforeach; ?>
-
-</html>
+      <?php endforeach; ?> 
+    </table>
+    <a href="tambah_produk.php"><button type="button" class="btn btn-outline-dark mt-3">Tambahkan Produk</button></a>
+</html
